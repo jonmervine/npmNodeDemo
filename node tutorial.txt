@@ -1,0 +1,27 @@
+Node:
+node -v | gets node version
+npm -v | gets npm version
+
+npm whoami | checks if you are logged in
+npm adduser | allows for creation and login of user
+
+npm init | generates a basic package.json
+npm install | installs package.json
+npm i express | installs the express package
+npm i karma -D | installs the karma package to development
+
+npm init -y | performs the basic generation with all default responses
+
+npm i express-generator -g | installs the express-generator package globally
+
+express --view=hbs --css=sass --git | sets up the package structure such that the view is managed via handlebars, css is compiled via sass and uses git
+
+npm run start | runs the 'start' script from package.json
+
+npm i nodemon -g | installs nodemon globally which monitors your node files for changes and automatically deploys them
+npm run dev | runs the 'dev' script from package.json
+
+-----------------
+
+we added the "dev" script in the package.json
+added new routes in the app.js
